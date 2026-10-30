@@ -10,7 +10,7 @@ Uso agentes de IA para desenvolver sistemas de gestão e finanças com padrão d
 - **Gestão estratégica**: OKR desdobrado até a atividade, projetos e sprints, processos com Lean Six Sigma (DMAIC, SIPOC, POP).
 - **Integrações**: APIs de ERP com OAuth, sincronização de dados e relatórios automatizados em Excel e PDF.
 - **Sites de alta performance**: landing pages para profissionais de saúde e pequenos negócios, com nota máxima no Lighthouse.
-- **Agentes de IA**: automação de rotinas e atendimento por WhatsApp.
+- **Agentes de IA**: agentes com LangGraph, sistemas de RAG sobre documentos e dados da empresa, servidores MCP que conectam modelos a sistemas internos, e automação de rotinas e atendimento por WhatsApp.
 
 ## Stack
 
@@ -21,7 +21,8 @@ Uso agentes de IA para desenvolver sistemas de gestão e finanças com padrão d
 | **Backend e dados** | Supabase (Postgres, Auth, Row Level Security, Edge Functions), Node.js, Express, APIs REST |
 | **Infra** | Cloudflare Workers, Vercel, GitHub |
 | **Qualidade** | Vitest, Playwright, Lighthouse, axe |
-| **Automação e IA** | Claude Code, Anthropic API, n8n |
+| **IA** | RAG (busca semântica, embeddings, pgvector), LangGraph, MCP (Model Context Protocol), Anthropic API, Claude Code |
+| **Automação** | n8n, WhatsApp, rotinas agendadas |
 | **Finanças** | Modelagem financeira em Python e Excel, IFRS/CPC, DRE, DFC |
 
 ## Como eu trabalho
@@ -30,7 +31,10 @@ Uso agentes de IA para desenvolver sistemas de gestão e finanças com padrão d
 2. **Segurança provada, não presumida.** Toda regra de acesso é testada contra o banco, inclusive o caso negado.
 3. **O cálculo mora no banco.** Um número, uma fonte, auditável até o lançamento.
 
-## Projetos abertos
+## Código aberto
+
+Disponibilizo para a comunidade códigos, skills de minha autoria e sistemas completos que uso no dia a dia, em português, com licença livre.
+
 
 | Projeto | O que é |
 |---|---|
@@ -39,4 +43,4 @@ Uso agentes de IA para desenvolver sistemas de gestão e finanças com padrão d
 | [Skills para apps Supabase](https://github.com/gabrielfonsecabh/skills-apps-supabase) | Três skills para Claude Code: Supabase sem falhas silenciosas, design system e drill-down. |
 | [Molde de landing para dentistas](https://github.com/gabrielfonsecabh/molde-landing-saude) | Landing page dentro das regras do CFO, um JSON e três cores, Lighthouse 100. |
 
-Compartilho o que aprendo porque conhecimento guardado não ajuda ninguém. Se algo aqui for útil, use, adapte e me conte.
+Conhecimento guardado não ajuda ninguém. Se algo aqui for útil, use, adapte e me conte.
