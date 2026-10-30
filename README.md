@@ -39,6 +39,7 @@ Disponibilizo para a comunidade códigos, skills de minha autoria e sistemas com
 | Projeto | O que é |
 |---|---|
 | [Bússola](https://github.com/gabrielfonsecabh/bussola) | Gestão estratégica open source: OKR, projetos e processos com Six Sigma. React + Supabase. |
+| [RAG do zero](https://github.com/gabrielfonsecabh/rag-do-zero) | Aprenda RAG construindo um: 7 lições com código em Python e TypeScript, do embedding feito à mão a pgvector em produção. |
 | [Método de desenvolvimento com IA](https://github.com/gabrielfonsecabh/metodo-dev-com-ia) | Modelos e guias para construir software de verdade com agentes de IA. |
 | [Skills para apps Supabase](https://github.com/gabrielfonsecabh/skills-apps-supabase) | Três skills para Claude Code: Supabase sem falhas silenciosas, design system e drill-down. |
 | [Molde de landing para dentistas](https://github.com/gabrielfonsecabh/molde-landing-saude) | Landing page dentro das regras do CFO, um JSON e três cores, Lighthouse 100. |
